@@ -1,0 +1,11 @@
+Resourse
+https://www.youtube.com/watch?v=1YtC5wVtiZ0&list=PLBn01m5Vbs4CDi677Up7d98HXKqDlbBFM&index=5
+https://www.youtube.com/watch?v=zRZ2cjZY-1c&t=10s
+https://www.swiftyplace.com/blog?tag=property+wrappers
+1 How to use the listStyle modifier.
+Answer: I was using the Class{InsetGroupedListStyle} not is InsetGroupedListStyle() in its attribute
+
+2 Difference and use of Toolbar and navigation bar items.
+
+
+3 Encorder or JSONEncorder
