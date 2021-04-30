@@ -53,6 +53,7 @@
 		1171DF90263B005C00CB1F79 = {
 			isa = PBXGroup;
 			children = (
+				1171DFD3263BACD800CB1F79 /* README.md */,
 				1171DF9B263B005C00CB1F79 /* TODOAppSwift */,
 				1171DF9A263B005C00CB1F79 /* Products */,
 			);
@@ -70,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				1171DF9C263B005C00CB1F79 /* TODOAppSwiftApp.swift */,
-				1171DFD3263BACD800CB1F79 /* README.md */,
 				1171DFB6263B0B6800CB1F79 /* Difficulties */,
 				1171DFBC263B103B00CB1F79 /* View */,
 				1171DFB1263B038B00CB1F79 /* ViewModel */,
