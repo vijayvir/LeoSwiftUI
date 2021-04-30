@@ -2,7 +2,7 @@
 
 ## Todo app visual look
 
-![gif of the app](https://github.com/vijayvir/LeoSwiftUI/blob/main/TODOAppSwiftCombine/ezgif-6-5c48d8a4ad16.gif)
+![gif of the app](https://github.com/vijayvir/LeoSwiftUI/blob/main/TODOAppSwiftCombine/sample.gif)
 
 
 ## Resources 
@@ -57,3 +57,4 @@ Stewart Lynch's GitHub:
 
 ## Resources for markups 
 https://guides.github.com/features/mastering-markdown/
+https://cloudconvert.com/mov-to-gif
