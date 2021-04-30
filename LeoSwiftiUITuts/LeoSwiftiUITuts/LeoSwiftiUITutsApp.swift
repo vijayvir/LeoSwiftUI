@@ -11,7 +11,7 @@ import SwiftUI
 struct LeoSwiftiUITutsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SignupView(firstName: .constant(""), email: .constant(""),password: .constant(""))
         }
     }
 }

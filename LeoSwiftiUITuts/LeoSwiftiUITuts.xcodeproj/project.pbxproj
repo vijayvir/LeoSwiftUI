@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11705671263A8CD200E790D1 /* signupTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11705670263A8CD200E790D1 /* signupTextField.swift */; };
+		11705671263A8CD200E790D1 /* SignupTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11705670263A8CD200E790D1 /* SignupTextField.swift */; };
 		1171DF72263AFD2B00CB1F79 /* Screenshot 2021-04-29 at 11.35.37.png in Resources */ = {isa = PBXBuildFile; fileRef = 1171DF71263AFD2B00CB1F79 /* Screenshot 2021-04-29 at 11.35.37.png */; };
 		11E63CAF2639022100AD8C6E /* LeoSwiftiUITutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */; };
 		11E63CB12639022100AD8C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E63CB02639022100AD8C6E /* ContentView.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11705670263A8CD200E790D1 /* signupTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupTextField.swift; sourceTree = "<group>"; };
+		11705670263A8CD200E790D1 /* SignupTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTextField.swift; sourceTree = "<group>"; };
 		1171DF71263AFD2B00CB1F79 /* Screenshot 2021-04-29 at 11.35.37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-04-29 at 11.35.37.png"; sourceTree = "<group>"; };
 		11E63CAB2639022100AD8C6E /* LeoSwiftiUITuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoSwiftiUITuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoSwiftiUITutsApp.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				11E63CBF2639113300AD8C6E /* SignupView.swift */,
-				11705670263A8CD200E790D1 /* signupTextField.swift */,
+				11705670263A8CD200E790D1 /* SignupTextField.swift */,
 			);
 			path = Signup;
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 				11E63CC02639113300AD8C6E /* SignupView.swift in Sources */,
 				11E63CB12639022100AD8C6E /* ContentView.swift in Sources */,
 				11E63CAF2639022100AD8C6E /* LeoSwiftiUITutsApp.swift in Sources */,
-				11705671263A8CD200E790D1 /* signupTextField.swift in Sources */,
+				11705671263A8CD200E790D1 /* SignupTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
