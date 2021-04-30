@@ -14,7 +14,7 @@ struct ContentView: View {
         NavigationView {
             List(){
              
-                ForEach (dataStore.toDos){ todo in
+                ForEach (dataStore.toDos.value){ todo in
                  
                     Button(action: {
                         modalType = .update(todo)
@@ -27,7 +27,7 @@ struct ContentView: View {
                     })
                 
                 }.onDelete(perform: { indexSet in
-                    dataStore.delete(at: indexSet)
+                    dataStore.deleteToDo.send(indexSet)
                 })
                     
             }
@@ -56,7 +56,7 @@ struct ContentView: View {
         .sheet(item: $modalType) { modalType in
             modalType
         }
-        .alert(item: $dataStore.appError) { (typeError) -> Alert in
+        .alert(item: $dataStore.appError.value) { (typeError) -> Alert in
             Alert(title: Text("OH Oh"), message: Text(typeError.error.localizedDescription)
             )
         }
