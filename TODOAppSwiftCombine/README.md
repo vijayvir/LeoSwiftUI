@@ -54,3 +54,6 @@ Stewart Lynch's GitHub:
    https://www.youtube.com/watch?v=1YtC5wVtiZ0&list=PLBn01m5Vbs4CDi677Up7d98HXKqDlbBFM&index=5
    https://www.youtube.com/watch?v=zRZ2cjZY-1c&t=10s
    https://www.swiftyplace.com/blog?tag=property+wrappers
+
+## Resources for markups 
+https://guides.github.com/features/mastering-markdown/
