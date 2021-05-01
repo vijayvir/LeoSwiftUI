@@ -16,6 +16,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        SignupView(firstName: .constant(""), email: .constant(""),password: .constant(""))
+        SignupView( firstName: "", email: "",password: "")
     }
 }

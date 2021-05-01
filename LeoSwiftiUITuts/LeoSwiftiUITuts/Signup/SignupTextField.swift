@@ -37,6 +37,7 @@ struct SignupTextField: View {
         .padding()
         .background(Color.gray)
         .cornerRadius(25)
+        
     }
 }
 
@@ -45,5 +46,6 @@ struct signupTextField_Previews: PreviewProvider {
     
     static var previews: some View {
         SignupTextField(   firstName: .constant("Vijayvir"), imageName: "heart.fill", title: "First Namedr")
+            .previewDisplayName("TextFild")
     }
 }

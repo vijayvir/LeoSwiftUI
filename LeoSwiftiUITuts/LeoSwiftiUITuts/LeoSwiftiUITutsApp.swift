@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct LeoSwiftiUITutsApp: App {
+    //M-V-VM
+    // V1 {SV} -> v- V -V (EV)
+    
     var body: some Scene {
         WindowGroup {
-            SignupView(firstName: .constant(""), email: .constant(""),password: .constant(""))
+            SignupView(firstName: "", email: "", password: "")
         }
     }
 }
