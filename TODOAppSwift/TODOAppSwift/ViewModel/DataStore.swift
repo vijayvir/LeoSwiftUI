@@ -60,7 +60,7 @@ class DataStore : ObservableObject {
     
     }
     func saveToDos(){
-        print("Saved Todo to file System")
+        print(NSLocalizedString("Saved Todo to file System", comment: ""))
         let encorder = JSONEncoder()
         
         do {

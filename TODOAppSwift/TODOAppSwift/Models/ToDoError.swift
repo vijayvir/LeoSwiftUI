@@ -21,7 +21,7 @@ enum ToDoError : Error , LocalizedError {
         case .readError:
             return NSLocalizedString("Could not save todo, Please reinstall the app", comment: "")
         case .decordingError:
-            return NSLocalizedString("There was a problem in loading your Todos, please create a new Todo to start over", comment: "")
+            return NSLocalizedString("There was a pro😍blem in loading your Todos, please create a new Todo to start over", comment: "")
         case .encordingError:
             return NSLocalizedString("Could not save todo, Please reinstall the app", comment: "")
         }

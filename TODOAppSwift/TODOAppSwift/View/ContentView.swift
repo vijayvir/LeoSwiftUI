@@ -56,8 +56,10 @@ struct ContentView: View {
         .sheet(item: $modalType) { modalType in
             modalType
         }
+      
         .alert(item: $dataStore.appError) { (typeError) -> Alert in
-            Alert(title: Text("OH Oh"), message: Text(typeError.error.localizedDescription)
+            
+           return Alert(title: Text("OH Oh"), message: Text(typeError.error.localizedDescription)
             )
         }
         }

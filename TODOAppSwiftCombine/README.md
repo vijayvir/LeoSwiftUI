@@ -1,4 +1,4 @@
-#  About To Do app
+# About To Do app
 
 ## Todo app visual look
 

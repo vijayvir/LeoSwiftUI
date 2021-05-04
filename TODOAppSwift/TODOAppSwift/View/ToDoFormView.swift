@@ -34,9 +34,19 @@ struct ToDoFormView: View {
 extension ToDoFormView {
     
     var cancelButton : some View {
-        Button("Cancel") {
+     
+        
+        Button(action: {
             presetationMode.wrappedValue.dismiss()
-        }
+        }, label: {
+            HStack{
+                Image(systemName: "music.quarternote.3")
+                Text("Cancel")
+            }
+             
+            
+        })
+        
     }
     
     var updateSaveButton : some View {

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */; };
+		116732F4263DC79D00BC9C4B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F3263DC79D00BC9C4B /* CircleImage.swift */; };
+		116732F7263DC84F00BC9C4B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F6263DC84F00BC9C4B /* MapView.swift */; };
 		1171DF81263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DF80263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift */; };
 		1171DF83263AFD9E00CB1F79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DF82263AFD9E00CB1F79 /* ContentView.swift */; };
 		1171DF85263AFDA100CB1F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1171DF84263AFDA100CB1F79 /* Assets.xcassets */; };
@@ -14,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewTut.swift; sourceTree = "<group>"; };
+		116732F3263DC79D00BC9C4B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		116732F6263DC84F00BC9C4B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		116732F9263DCB7900BC9C4B /* Animations.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Animations.md; sourceTree = "<group>"; };
 		1171DF7D263AFD9E00CB1F79 /* LeoSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1171DF80263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoSwiftUIControlsApp.swift; sourceTree = "<group>"; };
 		1171DF82263AFD9E00CB1F79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +40,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		116732EE263DC18A00BC9C4B /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */,
+				116732F3263DC79D00BC9C4B /* CircleImage.swift */,
+				116732F6263DC84F00BC9C4B /* MapView.swift */,
+				116732F9263DCB7900BC9C4B /* Animations.md */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		1171DF74263AFD9E00CB1F79 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +72,7 @@
 			children = (
 				1171DF80263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift */,
 				1171DF82263AFD9E00CB1F79 /* ContentView.swift */,
+				116732EE263DC18A00BC9C4B /* Navigation */,
 				1171DF84263AFDA100CB1F79 /* Assets.xcassets */,
 				1171DF89263AFDA100CB1F79 /* Info.plist */,
 				1171DF86263AFDA100CB1F79 /* Preview Content */,
@@ -139,6 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1171DF83263AFD9E00CB1F79 /* ContentView.swift in Sources */,
+				116732F4263DC79D00BC9C4B /* CircleImage.swift in Sources */,
+				116732F7263DC84F00BC9C4B /* MapView.swift in Sources */,
+				116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */,
 				1171DF81263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
