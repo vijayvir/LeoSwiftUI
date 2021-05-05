@@ -8,30 +8,35 @@
 import SwiftUI
 
 struct PickerViewDemo: View {
-    var frameworks = ["UIKit", "Core Data", "CloudKit", "SwiftUI"]
+    var frameworks = ["UIKit", "Core Data", "CloudKit", "SwiftUI","ee","444"]
       @State private var selectedFrameworkIndex = 0
 
     
     var body: some View {
+        
         VStack {
-                Picker(selection: $selectedFrameworkIndex, label: Text("")) {
-                    ForEach(0 ..< frameworks.count) {
-                       Text(self.frameworks[$0])
-                    }
-                 }
-                 Text("Your favorite framework: \(frameworks[selectedFrameworkIndex])")
-              }.padding()
-        NavigationView {
-             Form {
-                 Section {
-                     Picker(selection: $selectedFrameworkIndex, label: Text("Favorite Framework")) {
-                         ForEach(0 ..< frameworks.count) {
-                             Text(self.frameworks[$0])
+            VStack {
+                    Picker(selection: $selectedFrameworkIndex, label: Text("")) {
+                        ForEach(0 ..< frameworks.count) {
+                           Text(self.frameworks[$0])
+                        }
+                     }.pickerStyle(SegmentedPickerStyle())
+                     Text("Your favorite framework: \(frameworks[selectedFrameworkIndex])")
+                  }.padding()
+            NavigationView {
+                 Form {
+                     Section {
+                         Picker(selection: $selectedFrameworkIndex, label: Text("Favorite Framework")) {
+                             ForEach(0 ..< frameworks.count) {
+                                 Text(self.frameworks[$0])
+                             }
                          }
                      }
                  }
-             }
-             .navigationBarTitle("Favorites")
+                 .navigationBarTitle("Favorites")
+        }
+        
+
          }
         
     }

@@ -22,6 +22,7 @@
 /* Begin PBXFileReference section */
 		1142C7DA2642BAB6006377A4 /* Modifier+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modifier+Style.swift"; sourceTree = "<group>"; };
 		1142C7DD2642CD89006377A4 /* PickerViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewDemo.swift; sourceTree = "<group>"; };
+		1142C7E22642D2B9006377A4 /* Resources.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Resources.md; sourceTree = "<group>"; };
 		116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewTut.swift; sourceTree = "<group>"; };
 		116732F3263DC79D00BC9C4B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		116732F6263DC84F00BC9C4B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 				1171DF84263AFDA100CB1F79 /* Assets.xcassets */,
 				1171DF89263AFDA100CB1F79 /* Info.plist */,
 				1171DF86263AFDA100CB1F79 /* Preview Content */,
+				1142C7E22642D2B9006377A4 /* Resources.md */,
 			);
 			path = LeoSwiftUIControls;
 			sourceTree = "<group>";
