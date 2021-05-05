@@ -7,24 +7,36 @@
 
 import SwiftUI
 
-struct ListRowBackground: View {
-
-    enum Flavor: String, CaseIterable, Identifiable {
-        var id: String { self.rawValue }
-        case vanilla, chocolate, strawberry
-    }
+struct RatingView: View {
+    @Binding var rating: Int
 
     var body: some View {
-        List(Flavor.allCases, id: \.self) {
-            Text($0.rawValue)
+        HStack {
+            ForEach(1..<6) { index in
+                Button(action: { rating = index }) {
+                    Image(systemName: index <= rating ? "star.fill" : "star")
+                }
+            }
         }
-        .listRowInsets(EdgeInsets(top: 0, leading: 75, bottom: 0, trailing: 0))
-        .listRowBackground(Image(systemName: "sparkles"))
+        .accessibilityElement()
+        .accessibilityLabel(Text("rating"))
+        .accessibilityValue(Text(String(rating)))
+        .accessibilityAdjustableAction { direction in
+            switch direction {
+            case .increment:
+                guard rating < 5 else { break }
+                rating += 1
+            case .decrement:
+                guard rating > 1 else { break }
+                rating -= 1
+            @unknown default:
+                break
+            }
+        }
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        PickerViewDemo()
+        RatingView(rating: .constant(3))
     }
 }

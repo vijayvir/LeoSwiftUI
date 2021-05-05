@@ -13,7 +13,7 @@ struct LeoSwiftUIControlsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            PickerViewDemo()
+            MajidGridView()
         }   .onChange(of: scenePhase) { newScenePhase in
             if newScenePhase == .background {
         

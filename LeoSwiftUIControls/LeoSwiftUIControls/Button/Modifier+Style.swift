@@ -27,6 +27,7 @@ struct AppButton : ButtonStyle {
         return   configuration.label
             .padding()
             .background(configuration.isPressed ? LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing) : LinearGradient(gradient: Gradient(colors: [Color.blue, Color.red]), startPoint: .leading, endPoint: .trailing)  )
+            .animation(.easeOut(duration: 0.2))
             .foregroundColor(.white)
             .clipShape(Capsule())
             .scaleEffect(configuration.isPressed ? 1.2 : 1)
