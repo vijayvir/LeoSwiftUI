@@ -20,4 +20,23 @@ class SignUpViewModel : ObservableObject {
         
     }
     
+    var isDisable : Bool {
+        
+        return firstName.isEmpty
+    }
+    
+    func send() {
+        
+        print(firstName)
+        print(email)
+        print(password)
+    }
+    
+    func emailPrompt() -> String{
+        if firstName.isEmpty {
+            return "Please enter the first name"
+        }
+        return ""
+    }
+    
 }

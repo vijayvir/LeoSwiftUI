@@ -14,7 +14,18 @@ struct LeoSwiftiUITutsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SignupView(firstName: "", email: "", password: "")
+            TabView {
+                SignupView()
+                      .tabItem {
+                          Label("Signup", systemImage: "list.dash")
+                      }
+
+                ToDoViewList()
+                      .tabItem {
+                          Label("TodoApp", systemImage: "square.and.pencil")
+                      }
+              }
+          
         }
     }
 }

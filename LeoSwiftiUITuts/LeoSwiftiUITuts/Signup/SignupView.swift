@@ -9,14 +9,7 @@ import SwiftUI
 
 
 struct SignupView: View {
-    @State var firstName : String {
-        didSet {
-            print("FirstName")
-        }
-    }
-    @State var email : String
-    @State var password : String
-    
+
     @StateObject var signupViewModel = SignUpViewModel()
     
     
@@ -29,13 +22,24 @@ struct SignupView: View {
                 .opacity(5)
             
             VStack {
-                SignupTextField(outputValue: $signupViewModel.firstName, imageName: "person", title: "First Name ")
-                SignupTextField(outputValue: $signupViewModel.email, imageName: "envelope", title: "Email")
-                SignupTextField(outputValue: $signupViewModel.password, imageName: "lock", title: "Password", isSecure :true )
-                Text(firstName)
-                    .background(Color.red)
+                Text("Sign up")
+                Spacer()
+                SignupTextField(outputValue: $signupViewModel.firstName, imageName: "person", title: "First Name ", promtText: signupViewModel.emailPrompt())
+                SignupTextField(outputValue: $signupViewModel.email, imageName: "envelope", title: "Email", promtText: "Please write valid email id")
+                SignupTextField(outputValue: $signupViewModel.password, imageName: "lock", title: "Password", promtText: "Please write password", isSecure :true )
+                Spacer()
+                    
                 
-            }  .background(Color.clear)
+                Button("Send") {
+                    signupViewModel.send()
+                }
+                .padding()
+                .foregroundColor(.yellow)
+                .background(Color.purple)
+                .opacity(signupViewModel.isDisable ? 0.5 : 1)
+                .disabled(signupViewModel.isDisable)
+                Spacer()
+            }
             
            
                
@@ -49,6 +53,6 @@ struct SignupView: View {
 
 struct SignupView_Previews: PreviewProvider {
     static var previews: some View {
-        SignupView( firstName: "", email: "",password: "")
+        SignupView()
     }
 }

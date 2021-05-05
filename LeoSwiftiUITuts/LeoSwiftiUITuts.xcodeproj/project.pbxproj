@@ -16,6 +16,7 @@
 		118DD693264270EA00F8E81F /* UserTodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD692264270EA00F8E81F /* UserTodoViewModel.swift */; };
 		118DD697264279B900F8E81F /* ToDoViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD696264279B900F8E81F /* ToDoViewList.swift */; };
 		118DD69A26428F5D00F8E81F /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD69926428F5D00F8E81F /* SignUpViewModel.swift */; };
+		118DD69E264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 118DD69D264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png */; };
 		11E63CAF2639022100AD8C6E /* LeoSwiftiUITutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */; };
 		11E63CB12639022100AD8C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E63CB02639022100AD8C6E /* ContentView.swift */; };
 		11E63CB32639022400AD8C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E63CB22639022400AD8C6E /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		118DD692264270EA00F8E81F /* UserTodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTodoViewModel.swift; sourceTree = "<group>"; };
 		118DD696264279B900F8E81F /* ToDoViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewList.swift; sourceTree = "<group>"; };
 		118DD69926428F5D00F8E81F /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		118DD69D264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-05-05 at 14.38.05.png"; sourceTree = "<group>"; };
 		11E63CAB2639022100AD8C6E /* LeoSwiftiUITuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoSwiftiUITuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoSwiftiUITutsApp.swift; sourceTree = "<group>"; };
 		11E63CB02639022100AD8C6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		11E63CBE26390FC900AD8C6E /* Signup */ = {
 			isa = PBXGroup;
 			children = (
+				118DD69D264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png */,
 				11E63CBF2639113300AD8C6E /* SignupView.swift */,
 				118DD69926428F5D00F8E81F /* SignUpViewModel.swift */,
 				11705670263A8CD200E790D1 /* SignupTextField.swift */,
@@ -179,6 +182,7 @@
 				118DD68A26426B9D00F8E81F /* model.json in Resources */,
 				116732EC263D9DCB00BC9C4B /* difficuties in Resources */,
 				11E63CB32639022400AD8C6E /* Assets.xcassets in Resources */,
+				118DD69E264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
