@@ -9,20 +9,29 @@ import SwiftUI
 
 
 struct SignupView: View {
-    @State var firstName : String
+    @State var firstName : String {
+        didSet {
+            print("FirstName")
+        }
+    }
     @State var email : String
     @State var password : String
+    
+    @StateObject var signupViewModel = SignUpViewModel()
+    
+    
     var body: some View {
     
         ZStack{
             Rectangle()
                 .edgesIgnoringSafeArea(.all)
                 .foregroundColor(.blue)
+                .opacity(5)
             
             VStack {
-                SignupTextField(firstName: $firstName, imageName: "person", title: "First Name ")
-                SignupTextField(firstName: $email, imageName: "envelope", title: "Email")
-                SignupTextField(firstName: $password, imageName: "lock", title: "Password")
+                SignupTextField(outputValue: $signupViewModel.firstName, imageName: "person", title: "First Name ")
+                SignupTextField(outputValue: $signupViewModel.email, imageName: "envelope", title: "Email")
+                SignupTextField(outputValue: $signupViewModel.password, imageName: "lock", title: "Password", isSecure :true )
                 Text(firstName)
                     .background(Color.red)
                 

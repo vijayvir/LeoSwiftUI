@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct SignupTextField: View {
-    @Binding var firstName : String
+    @Binding var outputValue : String
     var imageName : String
     @State var isEditing : Bool = false
     var title : String
+    var isSecure : Bool = false
     var body: some View {
         VStack{
             HStack{
@@ -21,12 +22,19 @@ struct SignupTextField: View {
                   
                 Spacer().background(Color.purple)
           
-                TextField(title, text: $firstName) { (value) in
-                    isEditing = value
-          
-                } onCommit: {
-                    isEditing = false
+                if isSecure {
+                    SecureField(title, text: $outputValue) {
+                        isEditing = false
+                    }
+                }else {
+                    TextField(title, text: $outputValue) { (value) in
+                        isEditing = value
+              
+                    } onCommit: {
+                        isEditing = false
+                    }
                 }
+            
 
                     
             }
@@ -45,7 +53,7 @@ struct signupTextField_Previews: PreviewProvider {
    @State var firstName  : String
     
     static var previews: some View {
-        SignupTextField(   firstName: .constant("Vijayvir"), imageName: "heart.fill", title: "First Namedr")
+        SignupTextField(   outputValue: .constant("Vijayvir"), imageName: "heart.fill", title: "First Namedr")
             .previewDisplayName("TextFild")
     }
 }
