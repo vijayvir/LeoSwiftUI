@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1142C7DB2642BAB6006377A4 /* Modifier+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C7DA2642BAB6006377A4 /* Modifier+Style.swift */; };
+		1142C7DE2642CD89006377A4 /* PickerViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C7DD2642CD89006377A4 /* PickerViewDemo.swift */; };
 		116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */; };
 		116732F4263DC79D00BC9C4B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F3263DC79D00BC9C4B /* CircleImage.swift */; };
 		116732F7263DC84F00BC9C4B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F6263DC84F00BC9C4B /* MapView.swift */; };
@@ -14,9 +16,12 @@
 		1171DF83263AFD9E00CB1F79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DF82263AFD9E00CB1F79 /* ContentView.swift */; };
 		1171DF85263AFDA100CB1F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1171DF84263AFDA100CB1F79 /* Assets.xcassets */; };
 		1171DF88263AFDA100CB1F79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1171DF87263AFDA100CB1F79 /* Preview Assets.xcassets */; };
+		118DD6B22642B10200F8E81F /* ButtonLeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD6B12642B10200F8E81F /* ButtonLeo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1142C7DA2642BAB6006377A4 /* Modifier+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Modifier+Style.swift"; sourceTree = "<group>"; };
+		1142C7DD2642CD89006377A4 /* PickerViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewDemo.swift; sourceTree = "<group>"; };
 		116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewTut.swift; sourceTree = "<group>"; };
 		116732F3263DC79D00BC9C4B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		116732F6263DC84F00BC9C4B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -27,6 +32,7 @@
 		1171DF84263AFDA100CB1F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1171DF87263AFDA100CB1F79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1171DF89263AFDA100CB1F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118DD6B12642B10200F8E81F /* ButtonLeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLeo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,12 +46,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1142C7E02642CD8D006377A4 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1142C7DD2642CD89006377A4 /* PickerViewDemo.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
 		116732EE263DC18A00BC9C4B /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
 				116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */,
-				116732F3263DC79D00BC9C4B /* CircleImage.swift */,
-				116732F6263DC84F00BC9C4B /* MapView.swift */,
 				116732F9263DCB7900BC9C4B /* Animations.md */,
 			);
 			path = Navigation;
@@ -72,6 +84,10 @@
 			children = (
 				1171DF80263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift */,
 				1171DF82263AFD9E00CB1F79 /* ContentView.swift */,
+				1142C7E02642CD8D006377A4 /* PickerView */,
+				118DD6AB2642B0D200F8E81F /* Button */,
+				118DD6A92642B0AB00F8E81F /* Cuircle */,
+				118DD6A82642B09F00F8E81F /* Map */,
 				116732EE263DC18A00BC9C4B /* Navigation */,
 				1171DF84263AFDA100CB1F79 /* Assets.xcassets */,
 				1171DF89263AFDA100CB1F79 /* Info.plist */,
@@ -86,6 +102,31 @@
 				1171DF87263AFDA100CB1F79 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		118DD6A82642B09F00F8E81F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				116732F6263DC84F00BC9C4B /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		118DD6A92642B0AB00F8E81F /* Cuircle */ = {
+			isa = PBXGroup;
+			children = (
+				116732F3263DC79D00BC9C4B /* CircleImage.swift */,
+			);
+			path = Cuircle;
+			sourceTree = "<group>";
+		};
+		118DD6AB2642B0D200F8E81F /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				118DD6B12642B10200F8E81F /* ButtonLeo.swift */,
+				1142C7DA2642BAB6006377A4 /* Modifier+Style.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1142C7DB2642BAB6006377A4 /* Modifier+Style.swift in Sources */,
 				1171DF83263AFD9E00CB1F79 /* ContentView.swift in Sources */,
 				116732F4263DC79D00BC9C4B /* CircleImage.swift in Sources */,
+				118DD6B22642B10200F8E81F /* ButtonLeo.swift in Sources */,
 				116732F7263DC84F00BC9C4B /* MapView.swift in Sources */,
+				1142C7DE2642CD89006377A4 /* PickerViewDemo.swift in Sources */,
 				116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */,
 				1171DF81263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift in Sources */,
 			);

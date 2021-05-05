@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct LeoSwiftUIControlsApp: App {
+    @Environment(\.scenePhase) private var scenePhase
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PickerViewDemo()
+        }   .onChange(of: scenePhase) { newScenePhase in
+            if newScenePhase == .background {
+        
+            }
         }
+        
     }
 }

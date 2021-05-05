@@ -24,6 +24,11 @@ struct LeoSwiftiUITutsApp: App {
                       .tabItem {
                           Label("TodoApp", systemImage: "square.and.pencil")
                       }
+                
+                WebviewSwiftUI()
+                    .tabItem {
+                        Label("Webview", systemImage: "desktopcomputer")
+                    }
               }
           
         }

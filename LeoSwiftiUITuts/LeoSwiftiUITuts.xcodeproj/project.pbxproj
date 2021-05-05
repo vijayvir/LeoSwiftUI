@@ -17,6 +17,8 @@
 		118DD697264279B900F8E81F /* ToDoViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD696264279B900F8E81F /* ToDoViewList.swift */; };
 		118DD69A26428F5D00F8E81F /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD69926428F5D00F8E81F /* SignUpViewModel.swift */; };
 		118DD69E264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 118DD69D264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png */; };
+		118DD6A22642A45900F8E81F /* WebviewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD6A12642A45900F8E81F /* WebviewSwiftUI.swift */; };
+		118DD6A62642A47300F8E81F /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD6A52642A47300F8E81F /* Webview.swift */; };
 		11E63CAF2639022100AD8C6E /* LeoSwiftiUITutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */; };
 		11E63CB12639022100AD8C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E63CB02639022100AD8C6E /* ContentView.swift */; };
 		11E63CB32639022400AD8C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E63CB22639022400AD8C6E /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 		118DD696264279B900F8E81F /* ToDoViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewList.swift; sourceTree = "<group>"; };
 		118DD69926428F5D00F8E81F /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		118DD69D264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-05-05 at 14.38.05.png"; sourceTree = "<group>"; };
+		118DD6A12642A45900F8E81F /* WebviewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewSwiftUI.swift; sourceTree = "<group>"; };
+		118DD6A52642A47300F8E81F /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
 		11E63CAB2639022100AD8C6E /* LeoSwiftiUITuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoSwiftiUITuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoSwiftiUITutsApp.swift; sourceTree = "<group>"; };
 		11E63CB02639022100AD8C6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,15 @@
 			path = networking;
 			sourceTree = "<group>";
 		};
+		118DD6A02642A42000F8E81F /* Webview */ = {
+			isa = PBXGroup;
+			children = (
+				118DD6A12642A45900F8E81F /* WebviewSwiftUI.swift */,
+				118DD6A52642A47300F8E81F /* Webview.swift */,
+			);
+			path = Webview;
+			sourceTree = "<group>";
+		};
 		11E63CA22639022100AD8C6E = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +105,7 @@
 				11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */,
 				116732EB263D9DCB00BC9C4B /* difficuties */,
 				11E63CB02639022100AD8C6E /* ContentView.swift */,
+				118DD6A02642A42000F8E81F /* Webview */,
 				118DD68826426B8900F8E81F /* networking */,
 				11E63CBE26390FC900AD8C6E /* Signup */,
 				11E63CB22639022400AD8C6E /* Assets.xcassets */,
@@ -194,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E63CC02639113300AD8C6E /* SignupView.swift in Sources */,
+				118DD6A22642A45900F8E81F /* WebviewSwiftUI.swift in Sources */,
+				118DD6A62642A47300F8E81F /* Webview.swift in Sources */,
 				118DD6862642688C00F8E81F /* Networking.swift in Sources */,
 				118DD697264279B900F8E81F /* ToDoViewList.swift in Sources */,
 				11E63CB12639022100AD8C6E /* ContentView.swift in Sources */,

@@ -38,6 +38,7 @@ struct SignupView: View {
                 .background(Color.purple)
                 .opacity(signupViewModel.isDisable ? 0.5 : 1)
                 .disabled(signupViewModel.isDisable)
+                .buttonStyle(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=Button Style@*/DefaultButtonStyle()/*@END_MENU_TOKEN@*/)
                 Spacer()
             }
             
