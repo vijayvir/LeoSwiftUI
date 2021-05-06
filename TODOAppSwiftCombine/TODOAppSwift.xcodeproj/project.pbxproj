@@ -53,8 +53,8 @@
 		1171DF90263B005C00CB1F79 = {
 			isa = PBXGroup;
 			children = (
-				1171DFD3263BACD800CB1F79 /* README.md */,
 				1171DF9B263B005C00CB1F79 /* TODOAppSwift */,
+				1171DFD3263BACD800CB1F79 /* README.md */,
 				1171DF9A263B005C00CB1F79 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				1171DFAD263B028D00CB1F79 /* ToDo.swift */,
-				1171DFCD263B334600CB1F79 /* ToDoError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -113,6 +112,7 @@
 		1171DFBC263B103B00CB1F79 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1171DFCD263B334600CB1F79 /* ToDoError.swift */,
 				1171DF9E263B005C00CB1F79 /* ContentView.swift */,
 				1171DFC2263B106700CB1F79 /* ToDoFormView.swift */,
 			);
