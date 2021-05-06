@@ -15,6 +15,9 @@
 		1142C7F226430292006377A4 /* DatePickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C7F126430292006377A4 /* DatePickerDemo.swift */; };
 		1142C7F6264309C8006377A4 /* ImagerPickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C7F5264309C8006377A4 /* ImagerPickerDemo.swift */; };
 		1142C7FA264309F5006377A4 /* SwiftUIViewImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C7F9264309F5006377A4 /* SwiftUIViewImagePicker.swift */; };
+		1142C7FF2643755D006377A4 /* GesturesDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C7FE2643755D006377A4 /* GesturesDemo.swift */; };
+		1142C807264383F0006377A4 /* DragGestureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C806264383F0006377A4 /* DragGestureDemo.swift */; };
+		1142C80A264389C0006377A4 /* MagnificationGestureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C809264389C0006377A4 /* MagnificationGestureDemo.swift */; };
 		116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */; };
 		116732F4263DC79D00BC9C4B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F3263DC79D00BC9C4B /* CircleImage.swift */; };
 		116732F7263DC84F00BC9C4B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F6263DC84F00BC9C4B /* MapView.swift */; };
@@ -36,6 +39,10 @@
 		1142C7F126430292006377A4 /* DatePickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerDemo.swift; sourceTree = "<group>"; };
 		1142C7F5264309C8006377A4 /* ImagerPickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagerPickerDemo.swift; sourceTree = "<group>"; };
 		1142C7F9264309F5006377A4 /* SwiftUIViewImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewImagePicker.swift; sourceTree = "<group>"; };
+		1142C7FD26437513006377A4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1142C7FE2643755D006377A4 /* GesturesDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesDemo.swift; sourceTree = "<group>"; };
+		1142C806264383F0006377A4 /* DragGestureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureDemo.swift; sourceTree = "<group>"; };
+		1142C809264389C0006377A4 /* MagnificationGestureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureDemo.swift; sourceTree = "<group>"; };
 		116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewTut.swift; sourceTree = "<group>"; };
 		116732F3263DC79D00BC9C4B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		116732F6263DC84F00BC9C4B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -89,6 +96,17 @@
 			name = ImagePicker;
 			sourceTree = "<group>";
 		};
+		1142C7FC264374F6006377A4 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				1142C7FD26437513006377A4 /* README.md */,
+				1142C7FE2643755D006377A4 /* GesturesDemo.swift */,
+				1142C806264383F0006377A4 /* DragGestureDemo.swift */,
+				1142C809264389C0006377A4 /* MagnificationGestureDemo.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
 		116732EE263DC18A00BC9C4B /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +137,7 @@
 			children = (
 				1171DF80263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift */,
 				1171DF82263AFD9E00CB1F79 /* ContentView.swift */,
+				1142C7FC264374F6006377A4 /* Gesture */,
 				1142C7F4264309AA006377A4 /* ImagePicker */,
 				1142C7E32642D30D006377A4 /* Stack and Grid */,
 				1142C7E02642CD8D006377A4 /* PickerView */,
@@ -237,6 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1142C7DB2642BAB6006377A4 /* Modifier+Style.swift in Sources */,
+				1142C7FF2643755D006377A4 /* GesturesDemo.swift in Sources */,
+				1142C807264383F0006377A4 /* DragGestureDemo.swift in Sources */,
 				1142C7E92642EEE7006377A4 /* VerticalStackDemo.swift in Sources */,
 				1142C7EF2642FCE5006377A4 /* MajidGridView.swift in Sources */,
 				1171DF83263AFD9E00CB1F79 /* ContentView.swift in Sources */,
@@ -248,6 +269,7 @@
 				1142C7F226430292006377A4 /* DatePickerDemo.swift in Sources */,
 				1142C7F6264309C8006377A4 /* ImagerPickerDemo.swift in Sources */,
 				1142C7DE2642CD89006377A4 /* PickerViewDemo.swift in Sources */,
+				1142C80A264389C0006377A4 /* MagnificationGestureDemo.swift in Sources */,
 				116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */,
 				1171DF81263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift in Sources */,
 			);

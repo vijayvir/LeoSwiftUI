@@ -54,7 +54,11 @@ struct ToDoViewList: View {
 
 struct ToDoViewList_Previews: PreviewProvider {
     static var previews: some View {
-        ToDoViewList()
-            .preferredColorScheme(.dark)
+        Group {
+            ToDoViewList()
+                .preferredColorScheme(.light)
+            ToDoViewList()
+                .preferredColorScheme(.dark)
+        }
     }
 }
