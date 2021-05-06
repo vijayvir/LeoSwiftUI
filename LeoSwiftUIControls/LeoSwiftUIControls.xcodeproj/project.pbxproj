@@ -18,6 +18,10 @@
 		1142C7FF2643755D006377A4 /* GesturesDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C7FE2643755D006377A4 /* GesturesDemo.swift */; };
 		1142C807264383F0006377A4 /* DragGestureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C806264383F0006377A4 /* DragGestureDemo.swift */; };
 		1142C80A264389C0006377A4 /* MagnificationGestureDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1142C809264389C0006377A4 /* MagnificationGestureDemo.swift */; };
+		1145FF0426439D7F00F1E7B1 /* ButtonTuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145FF0326439D7F00F1E7B1 /* ButtonTuts.swift */; };
+		1145FF092643A79A00F1E7B1 /* AnimationImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145FF082643A79A00F1E7B1 /* AnimationImage.swift */; };
+		11472A1A2643C499003EEDBE /* LayoutPrioritiesUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11472A192643C499003EEDBE /* LayoutPrioritiesUIDemo.swift */; };
+		11472A1E2643C6FB003EEDBE /* LayoutPriority2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11472A1D2643C6FB003EEDBE /* LayoutPriority2.swift */; };
 		116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */; };
 		116732F4263DC79D00BC9C4B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F3263DC79D00BC9C4B /* CircleImage.swift */; };
 		116732F7263DC84F00BC9C4B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F6263DC84F00BC9C4B /* MapView.swift */; };
@@ -43,6 +47,11 @@
 		1142C7FE2643755D006377A4 /* GesturesDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturesDemo.swift; sourceTree = "<group>"; };
 		1142C806264383F0006377A4 /* DragGestureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureDemo.swift; sourceTree = "<group>"; };
 		1142C809264389C0006377A4 /* MagnificationGestureDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureDemo.swift; sourceTree = "<group>"; };
+		1145FF0326439D7F00F1E7B1 /* ButtonTuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTuts.swift; sourceTree = "<group>"; };
+		1145FF082643A79A00F1E7B1 /* AnimationImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationImage.swift; sourceTree = "<group>"; };
+		1145FF0C2643B07700F1E7B1 /* resanimation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = resanimation.md; sourceTree = "<group>"; };
+		11472A192643C499003EEDBE /* LayoutPrioritiesUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPrioritiesUIDemo.swift; sourceTree = "<group>"; };
+		11472A1D2643C6FB003EEDBE /* LayoutPriority2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriority2.swift; sourceTree = "<group>"; };
 		116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewTut.swift; sourceTree = "<group>"; };
 		116732F3263DC79D00BC9C4B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		116732F6263DC84F00BC9C4B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -96,7 +105,7 @@
 			name = ImagePicker;
 			sourceTree = "<group>";
 		};
-		1142C7FC264374F6006377A4 /* Gesture */ = {
+		1142C7FC264374F6006377A4 /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
 				1142C7FD26437513006377A4 /* README.md */,
@@ -104,7 +113,25 @@
 				1142C806264383F0006377A4 /* DragGestureDemo.swift */,
 				1142C809264389C0006377A4 /* MagnificationGestureDemo.swift */,
 			);
-			path = Gesture;
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		1145FF072643A75200F1E7B1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				1145FF082643A79A00F1E7B1 /* AnimationImage.swift */,
+				1145FF0C2643B07700F1E7B1 /* resanimation.md */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		11472A182643C47B003EEDBE /* Layout priorities  */ = {
+			isa = PBXGroup;
+			children = (
+				11472A192643C499003EEDBE /* LayoutPrioritiesUIDemo.swift */,
+				11472A1D2643C6FB003EEDBE /* LayoutPriority2.swift */,
+			);
+			path = "Layout priorities ";
 			sourceTree = "<group>";
 		};
 		116732EE263DC18A00BC9C4B /* Navigation */ = {
@@ -137,7 +164,9 @@
 			children = (
 				1171DF80263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift */,
 				1171DF82263AFD9E00CB1F79 /* ContentView.swift */,
-				1142C7FC264374F6006377A4 /* Gesture */,
+				11472A182643C47B003EEDBE /* Layout priorities  */,
+				1145FF072643A75200F1E7B1 /* Animations */,
+				1142C7FC264374F6006377A4 /* Gestures */,
 				1142C7F4264309AA006377A4 /* ImagePicker */,
 				1142C7E32642D30D006377A4 /* Stack and Grid */,
 				1142C7E02642CD8D006377A4 /* PickerView */,
@@ -181,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				118DD6B12642B10200F8E81F /* ButtonLeo.swift */,
+				1145FF0326439D7F00F1E7B1 /* ButtonTuts.swift */,
 				1142C7DA2642BAB6006377A4 /* Modifier+Style.swift */,
 			);
 			path = Button;
@@ -255,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1145FF092643A79A00F1E7B1 /* AnimationImage.swift in Sources */,
 				1142C7DB2642BAB6006377A4 /* Modifier+Style.swift in Sources */,
 				1142C7FF2643755D006377A4 /* GesturesDemo.swift in Sources */,
 				1142C807264383F0006377A4 /* DragGestureDemo.swift in Sources */,
@@ -263,11 +294,14 @@
 				1171DF83263AFD9E00CB1F79 /* ContentView.swift in Sources */,
 				1142C7E52642D33F006377A4 /* HorizontalStackDemo.swift in Sources */,
 				116732F4263DC79D00BC9C4B /* CircleImage.swift in Sources */,
+				11472A1E2643C6FB003EEDBE /* LayoutPriority2.swift in Sources */,
 				1142C7FA264309F5006377A4 /* SwiftUIViewImagePicker.swift in Sources */,
+				11472A1A2643C499003EEDBE /* LayoutPrioritiesUIDemo.swift in Sources */,
 				118DD6B22642B10200F8E81F /* ButtonLeo.swift in Sources */,
 				116732F7263DC84F00BC9C4B /* MapView.swift in Sources */,
 				1142C7F226430292006377A4 /* DatePickerDemo.swift in Sources */,
 				1142C7F6264309C8006377A4 /* ImagerPickerDemo.swift in Sources */,
+				1145FF0426439D7F00F1E7B1 /* ButtonTuts.swift in Sources */,
 				1142C7DE2642CD89006377A4 /* PickerViewDemo.swift in Sources */,
 				1142C80A264389C0006377A4 /* MagnificationGestureDemo.swift in Sources */,
 				116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */,

@@ -24,7 +24,7 @@ struct SignupTextField: View {
             VStack{
                 HStack{
                     Image(systemName: imageName)
-                        .animation(.linear(duration: 0.5))
+                        .animation(nil)
                     .foregroundColor(isEditing ?.green :.red)
                       
                     Spacer().background(Color.purple)

@@ -26,6 +26,7 @@ struct ImagePicker: UIViewControllerRepresentable {
 
         init(presentationMode: Binding<PresentationMode>,
              sourceType: UIImagePickerController.SourceType,
+             some : Int ,
              onImagePicked: @escaping (UIImage) -> Void) {
             _presentationMode = presentationMode
             self.sourceType = sourceType
@@ -48,7 +49,7 @@ struct ImagePicker: UIViewControllerRepresentable {
 
     func makeCoordinator() -> Coordinator {
         return Coordinator(presentationMode: presentationMode,
-                           sourceType: sourceType,
+                           sourceType: sourceType, some: 4,
                            onImagePicked: onImagePicked)
     }
 
