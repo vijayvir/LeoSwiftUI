@@ -77,10 +77,10 @@
 				11472A462643D225003EEDBE /* Model */,
 				11472A442643D201003EEDBE /* View */,
 				11472A562643EEAE003EEDBE /* Utilities */,
-				11472A302643CF3C003EEDBE /* Assets.xcassets */,
 				11472A352643CF3C003EEDBE /* Persistence.swift */,
 				11472A3A2643CF3C003EEDBE /* Info.plist */,
 				11472A372643CF3C003EEDBE /* PizzaRestaurant.xcdatamodeld */,
+				11472A302643CF3C003EEDBE /* Assets.xcassets */,
 				11472A322643CF3C003EEDBE /* Preview Content */,
 			);
 			path = PizzaRestaurant;

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1145FF0F2643BC6600F1E7B1 /* KeyboardUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145FF0E2643BC6600F1E7B1 /* KeyboardUtilities.swift */; };
+		115F7F8C2645361B006C2168 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115F7F8B2645361B006C2168 /* CustomTabBar.swift */; };
 		116732EC263D9DCB00BC9C4B /* difficuties in Resources */ = {isa = PBXBuildFile; fileRef = 116732EB263D9DCB00BC9C4B /* difficuties */; };
 		11705671263A8CD200E790D1 /* SignupTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11705670263A8CD200E790D1 /* SignupTextField.swift */; };
 		1171DF72263AFD2B00CB1F79 /* Screenshot 2021-04-29 at 11.35.37.png in Resources */ = {isa = PBXBuildFile; fileRef = 1171DF71263AFD2B00CB1F79 /* Screenshot 2021-04-29 at 11.35.37.png */; };
@@ -20,6 +21,8 @@
 		118DD69E264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png in Resources */ = {isa = PBXBuildFile; fileRef = 118DD69D264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png */; };
 		118DD6A22642A45900F8E81F /* WebviewSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD6A12642A45900F8E81F /* WebviewSwiftUI.swift */; };
 		118DD6A62642A47300F8E81F /* Webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD6A52642A47300F8E81F /* Webview.swift */; };
+		11BB93C826453E6100653E91 /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB93C726453E6100653E91 /* TabBarIcon.swift */; };
+		11BB93CB2645432300653E91 /* CustomTabBarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BB93CA2645432300653E91 /* CustomTabBarVM.swift */; };
 		11E63CAF2639022100AD8C6E /* LeoSwiftiUITutsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */; };
 		11E63CB12639022100AD8C6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E63CB02639022100AD8C6E /* ContentView.swift */; };
 		11E63CB32639022400AD8C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E63CB22639022400AD8C6E /* Assets.xcassets */; };
@@ -29,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		1145FF0E2643BC6600F1E7B1 /* KeyboardUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUtilities.swift; sourceTree = "<group>"; };
+		11472A712644258F003EEDBE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		115F7F8B2645361B006C2168 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		116732EB263D9DCB00BC9C4B /* difficuties */ = {isa = PBXFileReference; lastKnownFileType = text; path = difficuties; sourceTree = "<group>"; };
 		11705670263A8CD200E790D1 /* SignupTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTextField.swift; sourceTree = "<group>"; };
 		1171DF71263AFD2B00CB1F79 /* Screenshot 2021-04-29 at 11.35.37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-04-29 at 11.35.37.png"; sourceTree = "<group>"; };
@@ -42,6 +47,8 @@
 		118DD69D264297FD00F8E81F /* Screenshot 2021-05-05 at 14.38.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-05-05 at 14.38.05.png"; sourceTree = "<group>"; };
 		118DD6A12642A45900F8E81F /* WebviewSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewSwiftUI.swift; sourceTree = "<group>"; };
 		118DD6A52642A47300F8E81F /* Webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webview.swift; sourceTree = "<group>"; };
+		11BB93C726453E6100653E91 /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		11BB93CA2645432300653E91 /* CustomTabBarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarVM.swift; sourceTree = "<group>"; };
 		11E63CAB2639022100AD8C6E /* LeoSwiftiUITuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoSwiftiUITuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoSwiftiUITutsApp.swift; sourceTree = "<group>"; };
 		11E63CB02639022100AD8C6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +75,17 @@
 				1145FF0E2643BC6600F1E7B1 /* KeyboardUtilities.swift */,
 			);
 			path = Utilites;
+			sourceTree = "<group>";
+		};
+		11472A702644256F003EEDBE /* Custom Tab Bar  */ = {
+			isa = PBXGroup;
+			children = (
+				11472A712644258F003EEDBE /* README.md */,
+				115F7F8B2645361B006C2168 /* CustomTabBar.swift */,
+				11BB93C726453E6100653E91 /* TabBarIcon.swift */,
+				11BB93CA2645432300653E91 /* CustomTabBarVM.swift */,
+			);
+			path = "Custom Tab Bar ";
 			sourceTree = "<group>";
 		};
 		118DD68826426B8900F8E81F /* networking */ = {
@@ -115,6 +133,7 @@
 				11E63CAE2639022100AD8C6E /* LeoSwiftiUITutsApp.swift */,
 				116732EB263D9DCB00BC9C4B /* difficuties */,
 				11E63CB02639022100AD8C6E /* ContentView.swift */,
+				11472A702644256F003EEDBE /* Custom Tab Bar  */,
 				118DD6A02642A42000F8E81F /* Webview */,
 				118DD68826426B8900F8E81F /* networking */,
 				11E63CBE26390FC900AD8C6E /* Signup */,
@@ -221,14 +240,17 @@
 				11E63CC02639113300AD8C6E /* SignupView.swift in Sources */,
 				118DD6A22642A45900F8E81F /* WebviewSwiftUI.swift in Sources */,
 				118DD6A62642A47300F8E81F /* Webview.swift in Sources */,
+				115F7F8C2645361B006C2168 /* CustomTabBar.swift in Sources */,
 				1145FF0F2643BC6600F1E7B1 /* KeyboardUtilities.swift in Sources */,
 				118DD6862642688C00F8E81F /* Networking.swift in Sources */,
 				118DD697264279B900F8E81F /* ToDoViewList.swift in Sources */,
 				11E63CB12639022100AD8C6E /* ContentView.swift in Sources */,
 				118DD69A26428F5D00F8E81F /* SignUpViewModel.swift in Sources */,
 				11E63CAF2639022100AD8C6E /* LeoSwiftiUITutsApp.swift in Sources */,
+				11BB93C826453E6100653E91 /* TabBarIcon.swift in Sources */,
 				118DD68E26426C1900F8E81F /* TodosModel.swift in Sources */,
 				11705671263A8CD200E790D1 /* SignupTextField.swift in Sources */,
+				11BB93CB2645432300653E91 /* CustomTabBarVM.swift in Sources */,
 				118DD693264270EA00F8E81F /* UserTodoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

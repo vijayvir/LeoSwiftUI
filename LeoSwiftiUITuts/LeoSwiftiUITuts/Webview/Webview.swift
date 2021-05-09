@@ -15,12 +15,16 @@ struct Webview : UIViewRepresentable {
     
     
     let urlString : String
+    var closureDidFinish : ((Bool)-> ())?
+    
+    
     func makeUIView(context: Self.Context) -> webviewType {
         
         guard let url = URL(string: urlString) else {
             return WKWebView()
         }
         let wv = WKWebView()
+    
         wv.load(URLRequest(url: url))
         return wv
     }

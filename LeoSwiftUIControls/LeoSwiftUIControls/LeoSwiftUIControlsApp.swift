@@ -11,9 +11,10 @@ import SwiftUI
 struct LeoSwiftUIControlsApp: App {
     @Environment(\.scenePhase) private var scenePhase
     
+    
     var body: some Scene {
         WindowGroup {
-            ButtonTuts()
+            GeomentryRenderSwiftUIViewDemo()
         }   .onChange(of: scenePhase) { newScenePhase in
             if newScenePhase == .background {
         

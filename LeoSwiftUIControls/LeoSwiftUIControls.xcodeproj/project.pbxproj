@@ -22,6 +22,7 @@
 		1145FF092643A79A00F1E7B1 /* AnimationImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145FF082643A79A00F1E7B1 /* AnimationImage.swift */; };
 		11472A1A2643C499003EEDBE /* LayoutPrioritiesUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11472A192643C499003EEDBE /* LayoutPrioritiesUIDemo.swift */; };
 		11472A1E2643C6FB003EEDBE /* LayoutPriority2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11472A1D2643C6FB003EEDBE /* LayoutPriority2.swift */; };
+		11472A7426444CBE003EEDBE /* GeomentryRenderSwiftUIViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11472A7326444CBD003EEDBE /* GeomentryRenderSwiftUIViewDemo.swift */; };
 		116732F0263DC1AB00BC9C4B /* NavigationViewTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */; };
 		116732F4263DC79D00BC9C4B /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F3263DC79D00BC9C4B /* CircleImage.swift */; };
 		116732F7263DC84F00BC9C4B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116732F6263DC84F00BC9C4B /* MapView.swift */; };
@@ -30,6 +31,7 @@
 		1171DF85263AFDA100CB1F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1171DF84263AFDA100CB1F79 /* Assets.xcassets */; };
 		1171DF88263AFDA100CB1F79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1171DF87263AFDA100CB1F79 /* Preview Assets.xcassets */; };
 		118DD6B22642B10200F8E81F /* ButtonLeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118DD6B12642B10200F8E81F /* ButtonLeo.swift */; };
+		11BB93F52645972200653E91 /* Screenshot 2021-05-05 at 14.47.07.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BB93F42645972100653E91 /* Screenshot 2021-05-05 at 14.47.07.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,7 @@
 		1145FF0C2643B07700F1E7B1 /* resanimation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = resanimation.md; sourceTree = "<group>"; };
 		11472A192643C499003EEDBE /* LayoutPrioritiesUIDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPrioritiesUIDemo.swift; sourceTree = "<group>"; };
 		11472A1D2643C6FB003EEDBE /* LayoutPriority2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriority2.swift; sourceTree = "<group>"; };
+		11472A7326444CBD003EEDBE /* GeomentryRenderSwiftUIViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeomentryRenderSwiftUIViewDemo.swift; sourceTree = "<group>"; };
 		116732EF263DC1AB00BC9C4B /* NavigationViewTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewTut.swift; sourceTree = "<group>"; };
 		116732F3263DC79D00BC9C4B /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		116732F6263DC84F00BC9C4B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		1171DF87263AFDA100CB1F79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1171DF89263AFDA100CB1F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118DD6B12642B10200F8E81F /* ButtonLeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLeo.swift; sourceTree = "<group>"; };
+		11BB93F42645972100653E91 /* Screenshot 2021-05-05 at 14.47.07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-05-05 at 14.47.07.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,14 @@
 			path = "Layout priorities ";
 			sourceTree = "<group>";
 		};
+		11472A7226444C99003EEDBE /* GeometryRender */ = {
+			isa = PBXGroup;
+			children = (
+				11472A7326444CBD003EEDBE /* GeomentryRenderSwiftUIViewDemo.swift */,
+			);
+			path = GeometryRender;
+			sourceTree = "<group>";
+		};
 		116732EE263DC18A00BC9C4B /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,8 +174,10 @@
 		1171DF7F263AFD9E00CB1F79 /* LeoSwiftUIControls */ = {
 			isa = PBXGroup;
 			children = (
+				11BB93F42645972100653E91 /* Screenshot 2021-05-05 at 14.47.07.png */,
 				1171DF80263AFD9E00CB1F79 /* LeoSwiftUIControlsApp.swift */,
 				1171DF82263AFD9E00CB1F79 /* ContentView.swift */,
+				11472A7226444C99003EEDBE /* GeometryRender */,
 				11472A182643C47B003EEDBE /* Layout priorities  */,
 				1145FF072643A75200F1E7B1 /* Animations */,
 				1142C7FC264374F6006377A4 /* Gestures */,
@@ -275,6 +289,7 @@
 			files = (
 				1171DF88263AFDA100CB1F79 /* Preview Assets.xcassets in Resources */,
 				1171DF85263AFDA100CB1F79 /* Assets.xcassets in Resources */,
+				11BB93F52645972200653E91 /* Screenshot 2021-05-05 at 14.47.07.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +314,7 @@
 				11472A1A2643C499003EEDBE /* LayoutPrioritiesUIDemo.swift in Sources */,
 				118DD6B22642B10200F8E81F /* ButtonLeo.swift in Sources */,
 				116732F7263DC84F00BC9C4B /* MapView.swift in Sources */,
+				11472A7426444CBE003EEDBE /* GeomentryRenderSwiftUIViewDemo.swift in Sources */,
 				1142C7F226430292006377A4 /* DatePickerDemo.swift in Sources */,
 				1142C7F6264309C8006377A4 /* ImagerPickerDemo.swift in Sources */,
 				1145FF0426439D7F00F1E7B1 /* ButtonTuts.swift in Sources */,

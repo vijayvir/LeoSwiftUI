@@ -11,6 +11,7 @@ import SwiftUI
 struct LeoSwiftiUITutsApp: App {
     //M-V-VM
     // V1 {SV} -> v- V -V (EV)
+    @StateObject var customTabVm : CustomTabBarVM = CustomTabBarVM()
     
     var body: some Scene {
         WindowGroup {
@@ -29,6 +30,12 @@ struct LeoSwiftiUITutsApp: App {
                     .tabItem {
                         Label("Webview", systemImage: "desktopcomputer")
                     }
+                
+                CustomTabBar(customTabVm: customTabVm)
+                    .tabItem {
+                        Label("CustomTabBar", systemImage: "desktopcomputer")
+                    }
+
               }
           
         }

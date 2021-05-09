@@ -23,6 +23,8 @@ class OrderListViewModel : NSObject , ObservableObject  {
     
     
      override init(){
+  
+
         let fetchRequest : NSFetchRequest = Order.fetchRequest()
         fetchRequest.sortDescriptors =  []
         orderFetchController = NSFetchedResultsController(fetchRequest: fetchRequest , managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)

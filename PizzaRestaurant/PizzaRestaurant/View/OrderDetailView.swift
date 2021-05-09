@@ -71,6 +71,7 @@ struct OrderDetailView: View {
                 presetationMode.wrappedValue.dismiss()
             case .failure(let error ):
                print("Erroe \(error)")
+                
             }
             
         }

@@ -9,7 +9,9 @@ import SwiftUI
 
 struct WebviewSwiftUI: View {
     var body: some View {
-        Webview(urlString: "https://google.com")
+        Webview(urlString: "https://google.com") { (value) in
+            print("Vijayvir")
+        }
     }
 }
 
