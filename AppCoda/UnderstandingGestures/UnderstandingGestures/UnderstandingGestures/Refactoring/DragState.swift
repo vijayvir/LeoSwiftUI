@@ -17,7 +17,7 @@ enum DragState {
         case .inactive, .pressing:
             return .zero
     
-        case .dragging(translation: let translation):
+        case .dragging(translation: let translation ):
             return translation
         }
     }

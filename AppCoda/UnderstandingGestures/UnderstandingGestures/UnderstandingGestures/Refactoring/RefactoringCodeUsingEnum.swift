@@ -28,31 +28,31 @@ struct RefactoringCodeUsingEnum: View {
             
             Image(systemName: "star.circle.fill")
                 .font(.system(size: 200))
-                .opacity(isPresses ? 0.5 : 1.0 ) // it will reset as the gesture completes
-                .foregroundColor(isPresses ? .red : foreground)
-                .offset(x: previous_position.width + dragOffset_Translation.width,
-                        y: previous_position.height + dragOffset_Translation.height)
+                .opacity(dragState.isPressing ? 0.5 : 1.0 ) // it will reset as the gesture completes
+                .foregroundColor(dragState.isPressing ? .red : foreground)
+                .offset(x: previous_position.width + dragState.translation.width,
+                        y: previous_position.height + dragState.translation.height)
                 .animation(.easeIn)
                 .gesture(
                     LongPressGesture(minimumDuration: 0.5, maximumDistance: 1)
-                        .updating($isPresses, body: { (currentState, state, transaction) in
-                            state = currentState
-                        })
+                       
                         .onEnded({ (value) in
                             self.foreground = .green
                         })
                         
                         .sequenced(before: DragGesture())
-                        .updating($dragOffset_Translation, body: { (value, state, transation) in
+                        .updating($dragState, body: { (value, state, transation) in
                             
                             switch value {
                             
-                            case .first(let value12):
-                                print("FirstValue" , value12 )
+                            case .first(true ):
+                                state = .pressing
+                               
                             case .second(true, let value2):
                                 
-                                state = value2?.translation ?? .zero
-                                
+                                state = DragState.dragging(translation: value2?.translation ?? .zero)
+                            case .second(false , let _):
+                                foreground = .yellow
                             default :
                                 break
                             }
