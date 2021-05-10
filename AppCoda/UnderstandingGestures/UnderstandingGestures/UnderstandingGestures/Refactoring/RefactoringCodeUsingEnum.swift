@@ -9,10 +9,7 @@ import SwiftUI
 
 struct RefactoringCodeUsingEnum: View {
     
-    @GestureState var isPresses :Bool = false
-    @GestureState private var dragOffset_TranslationSequence = CGSize.zero
-    @GestureState private var dragOffset_Translation = CGSize.zero
-    
+
     @GestureState var dragState : DragState = .inactive
     
     
@@ -23,13 +20,14 @@ struct RefactoringCodeUsingEnum: View {
     var body: some View {
         
         VStack {
-            Text ("dragOffset_TranslationSequence\(dragOffset_TranslationSequence.debugDescription)")
-            Text ("dragOffset_Translation\(dragOffset_Translation.debugDescription)")
-            
+            Text ("dragOffset_TranslationSequence\(dragState.translation.debugDescription)")
+           
             Image(systemName: "star.circle.fill")
                 .font(.system(size: 200))
-                .opacity(dragState.isPressing ? 0.5 : 1.0 ) // it will reset as the gesture completes
+                
                 .foregroundColor(dragState.isPressing ? .red : foreground)
+                .opacity(dragState.isPressing ? 0.5 : 1.0 ) // it will reset as the gesture completes
+              
                 .offset(x: previous_position.width + dragState.translation.width,
                         y: previous_position.height + dragState.translation.height)
                 .animation(.easeIn)

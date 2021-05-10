@@ -13,7 +13,7 @@ struct UnderstandingGesturesApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RefactoringCodeUsingEnum()
+            CommonDragView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

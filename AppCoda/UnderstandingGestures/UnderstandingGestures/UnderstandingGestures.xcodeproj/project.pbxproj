@@ -20,6 +20,8 @@
 		115B082126482C30000D56CE /* CombiningGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B082026482C30000D56CE /* CombiningGestures.swift */; };
 		115B08242648386F000D56CE /* RefactoringCodeUsingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B08232648386F000D56CE /* RefactoringCodeUsingEnum.swift */; };
 		115B0828264838AC000D56CE /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B0827264838AC000D56CE /* DragState.swift */; };
+		115B082D26483FB8000D56CE /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B082C26483FB8000D56CE /* DraggableView.swift */; };
+		115B083026484151000D56CE /* CommonDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115B082F26484151000D56CE /* CommonDragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		115B082026482C30000D56CE /* CombiningGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningGestures.swift; sourceTree = "<group>"; };
 		115B08232648386F000D56CE /* RefactoringCodeUsingEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactoringCodeUsingEnum.swift; sourceTree = "<group>"; };
 		115B0827264838AC000D56CE /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		115B082C26483FB8000D56CE /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		115B082F26484151000D56CE /* CommonDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			children = (
 				115B0827264838AC000D56CE /* DragState.swift */,
 				115B08232648386F000D56CE /* RefactoringCodeUsingEnum.swift */,
+				115B082C26483FB8000D56CE /* DraggableView.swift */,
+				115B082F26484151000D56CE /* CommonDragView.swift */,
 			);
 			path = Refactoring;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 				115B082126482C30000D56CE /* CombiningGestures.swift in Sources */,
 				115B0802264817FA000D56CE /* ContentView.swift in Sources */,
 				115B080C264817FD000D56CE /* UnderstandingGestures.xcdatamodeld in Sources */,
+				115B083026484151000D56CE /* CommonDragView.swift in Sources */,
 				115B081E2648276C000D56CE /* UsingDragGesture.swift in Sources */,
+				115B082D26483FB8000D56CE /* DraggableView.swift in Sources */,
 				115B0828264838AC000D56CE /* DragState.swift in Sources */,
 				115B0800264817FA000D56CE /* UnderstandingGesturesApp.swift in Sources */,
 				115B081526481853000D56CE /* BasicGestures.swift in Sources */,
